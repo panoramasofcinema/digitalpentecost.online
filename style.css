@@ -10,8 +10,11 @@ html, body {
   overflow: hidden;
   color: #fff;
   background: #000;
-  font-family: "Cormorant Garamond", Georgia, "Times New Roman", serif;
-
+  font-family: "Cormorant Garamond", Times, serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 22px;
+  letter-spacing: 0.36px;
 }
 
 .video-bg {
@@ -44,12 +47,9 @@ html, body {
   justify-content: center;
   align-items: center;
   padding: 2.5rem;
-  font-size: 1.4rem;
-  line-height: 1.8rem;
 }
 
 .title {
-  letter-spacing: 0.03em;
   text-decoration: underline;
   text-decoration-color: #fff;
   text-decoration-thickness: .5px;
@@ -77,7 +77,5 @@ html, body {
 @media (max-width: 768px) {
   .content {
     max-width: 100%;
-    font-size: 1.3rem;
-    line-height: 1.8rem;
   }
 }
